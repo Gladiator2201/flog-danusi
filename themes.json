@@ -1,0 +1,76 @@
+[
+ {
+  "slug": "ptaki",
+  "title": "Ptaki",
+  "sub": "Skrzydlate portrety i wodne spotkania",
+  "emoji": "🐦",
+  "albums": [
+   "ptaki"
+  ],
+  "color": "#2a6f97"
+ },
+ {
+  "slug": "makro",
+  "title": "Makro",
+  "sub": "Motyle, kwiaty i świat w zbliżeniu",
+  "emoji": "🌸",
+  "albums": [
+   "makro"
+  ],
+  "color": "#b85c38"
+ },
+ {
+  "slug": "pejzaze",
+  "title": "Pejzaże",
+  "sub": "Horyzonty, niebo i spokojne widoki",
+  "emoji": "🌄",
+  "albums": [
+   "krajobraz",
+   "niebo"
+  ],
+  "color": "#3d6b4f"
+ },
+ {
+  "slug": "przyroda",
+  "title": "Przyroda i zwierzęta",
+  "sub": "Las, łąka i czworonożni bohaterowie",
+  "emoji": "🦌",
+  "albums": [
+   "przyroda",
+   "zwierzeta"
+  ],
+  "color": "#5a7d3a"
+ },
+ {
+  "slug": "okolice",
+  "title": "Szczecin i okolice",
+  "sub": "Miasto, Zachodniopomorskie, architektura",
+  "emoji": "🏛️",
+  "albums": [
+   "zachodniopomorskie",
+   "moje-miasto",
+   "architektura",
+   "portrety"
+  ],
+  "color": "#6b4c7a"
+ },
+ {
+  "slug": "dolny-slask",
+  "title": "Dolny Śląsk",
+  "sub": "Wędrówki, wspomnienia i skarby regionu",
+  "emoji": "💎",
+  "albums": [
+   "dolny-slask"
+  ],
+  "color": "#8a5a2b"
+ },
+ {
+  "slug": "humor",
+  "title": "Humor i wyobraźnia",
+  "sub": "Grafika AI, żarty dnia i odlotowe kadry",
+  "emoji": "✨",
+  "albums": [],
+  "color": "#9a3b5a",
+  "humor": true
+ }
+]

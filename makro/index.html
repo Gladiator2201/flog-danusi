@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Makro · Fotoblog Danusi (dana3ma)</title>
+<meta name="description" content="Motyle, kwiaty i świat w zbliżeniu — pokaz zdjęć z floga Danusi ze Szczecina.">
+<meta property="og:title" content="Makro · Fotoblog Danusi">
+<meta property="og:description" content="Motyle, kwiaty i świat w zbliżeniu">
+<meta property="og:image" content="https://gladiator2201.github.io/flog-danusi/img/makro/001_10464477.jpg">
+<meta property="og:url" content="https://gladiator2201.github.io/flog-danusi/makro/">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="gate">
+  <div class="card">
+    
+<svg class="orn tl" viewBox="0 0 56 56" aria-hidden="true"><path fill="none" stroke="#f7e08a" stroke-width="2.2" d="M4 52 C4 22 18 6 52 4"/><path fill="none" stroke="#c8962e" stroke-width="1.4" d="M12 52 C12 28 24 12 52 12"/><circle cx="14" cy="14" r="5" fill="#f7e08a"/><circle cx="14" cy="14" r="2.2" fill="#9a3b5a"/></svg>
+<svg class="orn tr" viewBox="0 0 56 56" aria-hidden="true"><path fill="none" stroke="#f7e08a" stroke-width="2.2" d="M4 52 C4 22 18 6 52 4"/><path fill="none" stroke="#c8962e" stroke-width="1.4" d="M12 52 C12 28 24 12 52 12"/><circle cx="14" cy="14" r="5" fill="#f7e08a"/><circle cx="14" cy="14" r="2.2" fill="#9a3b5a"/></svg>
+<svg class="orn bl" viewBox="0 0 56 56" aria-hidden="true"><path fill="none" stroke="#f7e08a" stroke-width="2.2" d="M4 52 C4 22 18 6 52 4"/><path fill="none" stroke="#c8962e" stroke-width="1.4" d="M12 52 C12 28 24 12 52 12"/><circle cx="14" cy="14" r="5" fill="#f7e08a"/><circle cx="14" cy="14" r="2.2" fill="#9a3b5a"/></svg>
+<svg class="orn br" viewBox="0 0 56 56" aria-hidden="true"><path fill="none" stroke="#f7e08a" stroke-width="2.2" d="M4 52 C4 22 18 6 52 4"/><path fill="none" stroke="#c8962e" stroke-width="1.4" d="M12 52 C12 28 24 12 52 12"/><circle cx="14" cy="14" r="5" fill="#f7e08a"/><circle cx="14" cy="14" r="2.2" fill="#9a3b5a"/></svg>
+
+    <p class="kick">Pokaz specjalny</p>
+    <h2>🌸 Makro</h2>
+    <p>Motyle, kwiaty i świat w zbliżeniu<br><b>42</b> zdjęć z floga Danusi</p>
+    <p style="font-size:13px;color:#cbb896">Damski głos + muzyczka pitu-pitu. Można też oglądać w ciszy.</p>
+    <div class="cta" style="margin-top:14px">
+      <button class="start" id="startShow" type="button">▶ Start pokazu</button>
+    </div>
+    <p style="margin-top:12px;font-size:13px"><a href="../">← Wróć do afisza</a> · <a href="https://dana3ma.flog.pl/" target="_blank" rel="noopener">Flog</a></p>
+  </div>
+</div>
+<div id="stage">
+  <p class="kick">Makro · dana3ma</p>
+  <div class="showframe">
+    <div class="goldring"></div>
+    <img id="slide" alt="">
+  </div>
+  <div class="progress"><i></i></div>
+  <div class="caption"><b id="capTitle"></b><a id="capLink" href="https://dana3ma.flog.pl/" target="_blank" rel="noopener"></a></div>
+  <div class="counter" id="counter"></div>
+  <div class="filmstrip" id="strip"></div>
+</div>
+<div class="toolbar">
+  <a href="../">Afisz</a>
+  <button type="button" id="btnPrev">⟵</button>
+  <button type="button" class="prim" id="btnPlay">▶ Play</button>
+  <button type="button" id="btnNext">⟶</button>
+  <a href="https://dana3ma.flog.pl/" target="_blank" rel="noopener">Flog ↗</a>
+</div>
+<audio id="intro" preload="auto" src="../audio/intro_makro.mp3"></audio>
+<audio id="music" preload="auto" src="../audio/music.mp3" loop></audio>
+<script>
+window.ASSET_PREFIX = '../';
+window.SLUG = "makro";
+window.PHOTOS = [{"file": "001_10464477.jpg", "id": "10464477", "title": "Zawieruszył się.", "url": "https://dana3ma.flog.pl/wpis/10464477/zawieruszyl-sie", "w": 933, "h": 906}, {"file": "002_10470107.jpg", "id": "10470107", "title": "Leśny porost", "url": "https://dana3ma.flog.pl/wpis/10470107/lesny-porost", "w": 933, "h": 705}, {"file": "003_10539338.jpg", "id": "10539338", "title": "Na liściu kukurdzy", "url": "https://dana3ma.flog.pl/wpis/10539338/na-lisciu-kukurdzy", "w": 933, "h": 531}, {"file": "004_10544458.jpg", "id": "10544458", "title": "Pajęcza firanka", "url": "https://dana3ma.flog.pl/wpis/10544458/pajecza-firanka", "w": 933, "h": 653}, {"file": "005_10548783.jpg", "id": "10548783", "title": "Wiesiołek", "url": "https://dana3ma.flog.pl/wpis/10548783/wiesiolek", "w": 933, "h": 747}, {"file": "006_10553021.jpg", "id": "10553021", "title": "Czernidłak pospolity", "url": "https://dana3ma.flog.pl/wpis/10553021/czernidlak-pospolity", "w": 933, "h": 634}, {"file": "007_10562015.jpg", "id": "10562015", "title": "Kwiat piwonii", "url": "https://dana3ma.flog.pl/wpis/10562015/kwiat-piwonii", "w": 933, "h": 719}, {"file": "008_10587247.jpg", "id": "10587247", "title": "W słońcu", "url": "https://dana3ma.flog.pl/wpis/10587247/w-sloncu", "w": 933, "h": 700}, {"file": "009_10595497.jpg", "id": "10595497", "title": "Naparstnica biała", "url": "https://dana3ma.flog.pl/wpis/10595497/naparstnica-biala", "w": 933, "h": 700}, {"file": "010_10600703.jpg", "id": "10600703", "title": "Smagliczka nadmorska", "url": "https://dana3ma.flog.pl/wpis/10600703/smagliczka-nadmorska", "w": 933, "h": 700}, {"file": "011_10622324.jpg", "id": "10622324", "title": "Róża", "url": "https://dana3ma.flog.pl/wpis/10622324/roza", "w": 933, "h": 722}, {"file": "012_10639347.jpg", "id": "10639347", "title": "Na gałązce _ dla Ciebie Basiu. Pozdrawiam cieplutko.", "url": "https://dana3ma.flog.pl/wpis/10639347/na-galazce--dla-ciebie-basiu-pozdrawiam-cieplutko", "w": 933, "h": 637}, {"file": "013_10655662.jpg", "id": "10655662", "title": "Groszek pachnący", "url": "https://dana3ma.flog.pl/wpis/10655662/groszek-pachnacy", "w": 933, "h": 950}, {"file": "014_10659965.jpg", "id": "10659965", "title": "W trawie,", "url": "https://dana3ma.flog.pl/wpis/10659965/w-trawie", "w": 933, "h": 700}, {"file": "015_10665167.jpg", "id": "10665167", "title": "W trawie", "url": "https://dana3ma.flog.pl/wpis/10665167/w-trawie", "w": 933, "h": 700}, {"file": "016_10742354.jpg", "id": "10742354", "title": "Na wietrze", "url": "https://dana3ma.flog.pl/wpis/10742354/na-wietrze", "w": 1200, "h": 900}, {"file": "017_10747711.jpg", "id": "10747711", "title": "Nim rozkwitnie Aster", "url": "https://dana3ma.flog.pl/wpis/10747711/nim-rozkwitnie-aster", "w": 1200, "h": 900}, {"file": "018_10754409.jpg", "id": "10754409", "title": "W trawie", "url": "https://dana3ma.flog.pl/wpis/10754409/w-trawie", "w": 1200, "h": 796}, {"file": "019_10767320.jpg", "id": "10767320", "title": "Szyszki", "url": "https://dana3ma.flog.pl/wpis/10767320/szyszki", "w": 933, "h": 744}, {"file": "020_10797049.jpg", "id": "10797049", "title": "Wiosennie-tegoroczny dzisiaj wypatrzony w trawie:))", "url": "https://dana3ma.flog.pl/wpis/10797049/wiosennietegoroczny-dzisiaj--wypatrzony-w-trawie", "w": 933, "h": 560}, {"file": "021_10825046.jpg", "id": "10825046", "title": "Po deszczu", "url": "https://dana3ma.flog.pl/wpis/10825046/po-deszczu", "w": 1200, "h": 788}, {"file": "022_10903706.jpg", "id": "10903706", "title": "W trawie", "url": "https://dana3ma.flog.pl/wpis/10903706/w-trawie", "w": 1200, "h": 680}, {"file": "023_11070075.jpg", "id": "11070075", "title": "Na liściu pelargonii", "url": "https://dana3ma.flog.pl/wpis/11070075/na-lisciu-pelargonii", "w": 933, "h": 671}, {"file": "024_11072871.jpg", "id": "11072871", "title": "Kwiat jabłoni", "url": "https://dana3ma.flog.pl/wpis/11072871/kwiat-jabloni", "w": 933, "h": 714}, {"file": "025_11975659.jpg", "id": "11975659", "title": "Styrakowiec japoński:)", "url": "https://dana3ma.flog.pl/wpis/11975659/styrakowiec-japonski", "w": 1200, "h": 715}, {"file": "026_11977892.jpg", "id": "11977892", "title": "Łątka pospolita", "url": "https://dana3ma.flog.pl/wpis/11977892/--latka-pospolita", "w": 1145, "h": 1200}, {"file": "027_11982099.jpg", "id": "11982099", "title": "Róża żółta:)", "url": "https://dana3ma.flog.pl/wpis/11982099/-roza-zolta", "w": 1200, "h": 929}, {"file": "028_11984054.jpg", "id": "11984054", "title": "Pelargonia", "url": "https://dana3ma.flog.pl/wpis/11984054/pelargonia", "w": 1200, "h": 757}, {"file": "029_11991673.jpg", "id": "11991673", "title": "Ważka czteroplama:)", "url": "https://dana3ma.flog.pl/wpis/11991673/wazka-czteroplama", "w": 1200, "h": 654}, {"file": "030_12003648.jpg", "id": "12003648", "title": "Pączek róży", "url": "https://dana3ma.flog.pl/wpis/12003648/paczek-rozy", "w": 1200, "h": 944}, {"file": "031_12033403.jpg", "id": "12033403", "title": "Owoc dzikiej róży:)", "url": "https://dana3ma.flog.pl/wpis/12033403/owoc-dzikiej-rozy", "w": 1200, "h": 841}, {"file": "032_12103429.jpg", "id": "12103429", "title": "Dalia;)", "url": "https://dana3ma.flog.pl/wpis/12103429/dalia", "w": 1200, "h": 900}, {"file": "033_12186812.jpg", "id": "12186812", "title": "Przetacznik ożankowy:)", "url": "https://dana3ma.flog.pl/wpis/12186812/przetacznik-ozankowy", "w": 880, "h": 1200}, {"file": "034_12188582.jpg", "id": "12188582", "title": "Kwiat ostu:)", "url": "https://dana3ma.flog.pl/wpis/12188582/kwiat-ostu-", "w": 1200, "h": 938}, {"file": "035_12695750.jpg", "id": "12695750", "title": "Kwiat słonecznika:)", "url": "https://dana3ma.flog.pl/wpis/12695750/kwiat-slonecznika", "w": 1138, "h": 1200}, {"file": "036_12711164.jpg", "id": "12711164", "title": "Floks:)", "url": "https://dana3ma.flog.pl/wpis/12711164/floks", "w": 987, "h": 1200}, {"file": "037_12716484.jpg", "id": "12716484", "title": "W trawie:)", "url": "https://dana3ma.flog.pl/wpis/12716484/w-trawie", "w": 1200, "h": 793}, {"file": "038_13214687.jpg", "id": "13214687", "title": "Motyl :)", "url": "https://dana3ma.flog.pl/wpis/13214687/motyl-", "w": 1200, "h": 933}, {"file": "039_13790434.jpg", "id": "13790434", "title": "W blasku słońca:)", "url": "https://dana3ma.flog.pl/wpis/13790434/w-blasku-slonca", "w": 1200, "h": 797}, {"file": "040_13824022.jpg", "id": "13824022", "title": "Bielinek kapustnik:)", "url": "https://dana3ma.flog.pl/wpis/13824022/bielinek-kapustnik", "w": 1200, "h": 900}, {"file": "041_14387254.jpg", "id": "14387254", "title": "Dmuchawiec ...", "url": "https://dana3ma.flog.pl/wpis/14387254/dmuchawiec-", "w": 1200, "h": 800}, {"file": "042_14671518.jpg", "id": "14671518", "title": "Przepraszam, zastałem Maje... pszczółkę", "url": "https://dana3ma.flog.pl/wpis/14671518/przepraszam-zastalem-maje-pszczolke", "w": 1200, "h": 883}];
+</script>
+<script src="../js/show.js"></script>
+</body></html>

@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ptaki · Fotoblog Danusi (dana3ma)</title>
+<meta name="description" content="Skrzydlate portrety i wodne spotkania — pokaz zdjęć z floga Danusi ze Szczecina.">
+<meta property="og:title" content="Ptaki · Fotoblog Danusi">
+<meta property="og:description" content="Skrzydlate portrety i wodne spotkania">
+<meta property="og:image" content="https://gladiator2201.github.io/flog-danusi/img/ptaki/001_10819089.jpg">
+<meta property="og:url" content="https://gladiator2201.github.io/flog-danusi/ptaki/">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div id="gate">
+  <div class="card">
+    
+<svg class="orn tl" viewBox="0 0 56 56" aria-hidden="true"><path fill="none" stroke="#f7e08a" stroke-width="2.2" d="M4 52 C4 22 18 6 52 4"/><path fill="none" stroke="#c8962e" stroke-width="1.4" d="M12 52 C12 28 24 12 52 12"/><circle cx="14" cy="14" r="5" fill="#f7e08a"/><circle cx="14" cy="14" r="2.2" fill="#9a3b5a"/></svg>
+<svg class="orn tr" viewBox="0 0 56 56" aria-hidden="true"><path fill="none" stroke="#f7e08a" stroke-width="2.2" d="M4 52 C4 22 18 6 52 4"/><path fill="none" stroke="#c8962e" stroke-width="1.4" d="M12 52 C12 28 24 12 52 12"/><circle cx="14" cy="14" r="5" fill="#f7e08a"/><circle cx="14" cy="14" r="2.2" fill="#9a3b5a"/></svg>
+<svg class="orn bl" viewBox="0 0 56 56" aria-hidden="true"><path fill="none" stroke="#f7e08a" stroke-width="2.2" d="M4 52 C4 22 18 6 52 4"/><path fill="none" stroke="#c8962e" stroke-width="1.4" d="M12 52 C12 28 24 12 52 12"/><circle cx="14" cy="14" r="5" fill="#f7e08a"/><circle cx="14" cy="14" r="2.2" fill="#9a3b5a"/></svg>
+<svg class="orn br" viewBox="0 0 56 56" aria-hidden="true"><path fill="none" stroke="#f7e08a" stroke-width="2.2" d="M4 52 C4 22 18 6 52 4"/><path fill="none" stroke="#c8962e" stroke-width="1.4" d="M12 52 C12 28 24 12 52 12"/><circle cx="14" cy="14" r="5" fill="#f7e08a"/><circle cx="14" cy="14" r="2.2" fill="#9a3b5a"/></svg>
+
+    <p class="kick">Pokaz specjalny</p>
+    <h2>🐦 Ptaki</h2>
+    <p>Skrzydlate portrety i wodne spotkania<br><b>50</b> zdjęć z floga Danusi</p>
+    <p style="font-size:13px;color:#cbb896">Damski głos + muzyczka pitu-pitu. Można też oglądać w ciszy.</p>
+    <div class="cta" style="margin-top:14px">
+      <button class="start" id="startShow" type="button">▶ Start pokazu</button>
+    </div>
+    <p style="margin-top:12px;font-size:13px"><a href="../">← Wróć do afisza</a> · <a href="https://dana3ma.flog.pl/" target="_blank" rel="noopener">Flog</a></p>
+  </div>
+</div>
+<div id="stage">
+  <p class="kick">Ptaki · dana3ma</p>
+  <div class="showframe">
+    <div class="goldring"></div>
+    <img id="slide" alt="">
+  </div>
+  <div class="progress"><i></i></div>
+  <div class="caption"><b id="capTitle"></b><a id="capLink" href="https://dana3ma.flog.pl/" target="_blank" rel="noopener"></a></div>
+  <div class="counter" id="counter"></div>
+  <div class="filmstrip" id="strip"></div>
+</div>
+<div class="toolbar">
+  <a href="../">Afisz</a>
+  <button type="button" id="btnPrev">⟵</button>
+  <button type="button" class="prim" id="btnPlay">▶ Play</button>
+  <button type="button" id="btnNext">⟶</button>
+  <a href="https://dana3ma.flog.pl/" target="_blank" rel="noopener">Flog ↗</a>
+</div>
+<audio id="intro" preload="auto" src="../audio/intro_ptaki.mp3"></audio>
+<audio id="music" preload="auto" src="../audio/music.mp3" loop></audio>
+<script>
+window.ASSET_PREFIX = '../';
+window.SLUG = "ptaki";
+window.PHOTOS = [{"file": "001_10819089.jpg", "id": "10819089", "title": "Ślicznie dziękuję za odwiedzinki i miły wpis.))", "url": "https://dana3ma.flog.pl/wpis/10819089/slicznie-dziekuje-za-odwiedzinki-i-mily-wpis", "w": 1200, "h": 750}, {"file": "002_11046892.jpg", "id": "11046892", "title": "Kwiczoł", "url": "https://dana3ma.flog.pl/wpis/11046892/kwiczol", "w": 1024, "h": 911}, {"file": "003_11079119.jpg", "id": "11079119", "title": "Po kąpieli", "url": "https://dana3ma.flog.pl/wpis/11079119/po-kapieli--", "w": 933, "h": 614}, {"file": "004_11321943.jpg", "id": "11321943", "title": "W słońcu", "url": "https://dana3ma.flog.pl/wpis/11321943/w-sloncu", "w": 933, "h": 648}, {"file": "005_11453386.jpg", "id": "11453386", "title": "Dziękuję bardzo za odwiedziny:))", "url": "https://dana3ma.flog.pl/wpis/11453386/dziekuje-bardzo-za-odwiedziny", "w": 933, "h": 636}, {"file": "006_11637826.jpg", "id": "11637826", "title": "Spacerkiem po lodzie", "url": "https://dana3ma.flog.pl/wpis/11637826/spacerkiem-po-lodzie", "w": 1200, "h": 800}, {"file": "007_11800447.jpg", "id": "11800447", "title": "Żuraw zwyczajny", "url": "https://dana3ma.flog.pl/wpis/11800447/zuraw-zwyczajny", "w": 933, "h": 613}, {"file": "008_11804126.jpg", "id": "11804126", "title": "Mewa śmieszka:)", "url": "https://dana3ma.flog.pl/wpis/11804126/mewa-smieszka", "w": 933, "h": 640}, {"file": "009_11831531.jpg", "id": "11831531", "title": "W poszukiwaniu pożywienia:)", "url": "https://dana3ma.flog.pl/wpis/11831531/w-poszukiwaniu-pozywienia", "w": 943, "h": 1200}, {"file": "010_11833435.jpg", "id": "11833435", "title": "Kurka wodna:)", "url": "https://dana3ma.flog.pl/wpis/11833435/kurka-wodna", "w": 1200, "h": 900}, {"file": "011_11993867.jpg", "id": "11993867", "title": "Perkoz dwuczuby:)", "url": "https://dana3ma.flog.pl/wpis/11993867/perkoz-dwuczuby", "w": 1200, "h": 1170}, {"file": "012_12310883.jpg", "id": "12310883", "title": "Czapla:)", "url": "https://dana3ma.flog.pl/wpis/12310883/czapla", "w": 1200, "h": 740}, {"file": "013_12321354.jpg", "id": "12321354", "title": "Dzięcioł duży:)", "url": "https://dana3ma.flog.pl/wpis/12321354/dzieciol-duzy", "w": 995, "h": 708}, {"file": "014_12447670.jpg", "id": "12447670", "title": "Spacerek", "url": "https://dana3ma.flog.pl/wpis/12447670/spacerek", "w": 894, "h": 1000}, {"file": "015_12454817.jpg", "id": "12454817", "title": "Tuż przed zachodem słońca:)", "url": "https://dana3ma.flog.pl/wpis/12454817/tuz-przed-zachodem-slonca", "w": 1200, "h": 948}, {"file": "016_12472661.jpg", "id": "12472661", "title": "Nad Zalewem Szczecińskim...", "url": "https://dana3ma.flog.pl/wpis/12472661/nad-zalewem-szczecinskim", "w": 1200, "h": 900}, {"file": "017_12476318.jpg", "id": "12476318", "title": "Szpak", "url": "https://dana3ma.flog.pl/wpis/12476318/szpak", "w": 1200, "h": 794}, {"file": "018_12505153.jpg", "id": "12505153", "title": "Na spacerze:)", "url": "https://dana3ma.flog.pl/wpis/12505153/na-spacerze", "w": 1200, "h": 804}, {"file": "019_12748252.jpg", "id": "12748252", "title": "Wróbel zwyczajny:)", "url": "https://dana3ma.flog.pl/wpis/12748252/wrobel-zwyczajny", "w": 1076, "h": 1200}, {"file": "020_12838775.jpg", "id": "12838775", "title": "Rudzik:)", "url": "https://dana3ma.flog.pl/wpis/12838775/rudzik-", "w": 1200, "h": 1017}, {"file": "021_12874870.jpg", "id": "12874870", "title": "Przed zmrokiem:)", "url": "https://dana3ma.flog.pl/wpis/12874870/przed-zmrokiem", "w": 1200, "h": 620}, {"file": "022_12881900.jpg", "id": "12881900", "title": "Kowalik:)", "url": "https://dana3ma.flog.pl/wpis/12881900/kowalik---", "w": 1200, "h": 800}, {"file": "023_12893194.jpg", "id": "12893194", "title": "Mewa siodłata:))", "url": "https://dana3ma.flog.pl/wpis/12893194/mewa-siodlata", "w": 1200, "h": 898}, {"file": "024_12897972.jpg", "id": "12897972", "title": "Zawieruszył się:)", "url": "https://dana3ma.flog.pl/wpis/12897972/zawieruszyl-sie", "w": 1200, "h": 890}, {"file": "025_12899556.jpg", "id": "12899556", "title": "Zagubiony:)", "url": "https://dana3ma.flog.pl/wpis/12899556/zagubiony", "w": 1200, "h": 864}, {"file": "026_13046506.jpg", "id": "13046506", "title": "Ptaki wodne :)", "url": "https://dana3ma.flog.pl/wpis/13046506/ptaki-wodne-", "w": 1200, "h": 800}, {"file": "027_13103499.jpg", "id": "13103499", "title": "Zawieruszyła się:)", "url": "https://dana3ma.flog.pl/wpis/13103499/zawieruszyla-sie", "w": 1200, "h": 890}, {"file": "028_13156933.jpg", "id": "13156933", "title": "Sikorka modraszka:)", "url": "https://dana3ma.flog.pl/wpis/13156933/sikorka-modraszka", "w": 1200, "h": 1050}, {"file": "029_13158470.jpg", "id": "13158470", "title": "Będzie gniazdko:)", "url": "https://dana3ma.flog.pl/wpis/13158470/bedzie-gniazdko", "w": 1200, "h": 819}, {"file": "030_13180866.jpg", "id": "13180866", "title": "W trzcinie:)", "url": "https://dana3ma.flog.pl/wpis/13180866/w-trzcinie", "w": 1200, "h": 923}, {"file": "031_13257681.jpg", "id": "13257681", "title": "Na gałęzi :)", "url": "https://dana3ma.flog.pl/wpis/13257681/na--galezi-", "w": 1200, "h": 1027}, {"file": "032_13263648.jpg", "id": "13263648", "title": "Kos (samiczka)", "url": "https://dana3ma.flog.pl/wpis/13263648/kos-samiczka", "w": 1200, "h": 800}, {"file": "033_13334760.jpg", "id": "13334760", "title": "Czapla siwa:)", "url": "https://dana3ma.flog.pl/wpis/13334760/czapla-siwa", "w": 1200, "h": 717}, {"file": "034_13357854.jpg", "id": "13357854", "title": "Klucz żurawi:)", "url": "https://dana3ma.flog.pl/wpis/13357854/klucz-zurawi", "w": 1200, "h": 800}, {"file": "035_13360594.jpg", "id": "13360594", "title": "Kokoszka zwyczajna:)", "url": "https://dana3ma.flog.pl/wpis/13360594/kokoszka-zwyczajna", "w": 1200, "h": 773}, {"file": "036_13443425.jpg", "id": "13443425", "title": "Nikt jej nie uczył a pływa...", "url": "https://dana3ma.flog.pl/wpis/13443425/nikt-jej-nie-uczyl-a-plywa", "w": 1200, "h": 800}, {"file": "037_13494755.jpg", "id": "13494755", "title": "Ptaki w locie...", "url": "https://dana3ma.flog.pl/wpis/13494755/ptaki-w-locie", "w": 1200, "h": 900}, {"file": "038_13547791.jpg", "id": "13547791", "title": "Przeleciał mi nad głową:)", "url": "https://dana3ma.flog.pl/wpis/13547791/przelecial-mi-nad-glowa", "w": 1200, "h": 800}, {"file": "039_13557701.jpg", "id": "13557701", "title": "Kwiczoł - w blasku słońca", "url": "https://dana3ma.flog.pl/wpis/13557701/kwiczol--w-blasku-slonca", "w": 804, "h": 1200}, {"file": "040_13566634.jpg", "id": "13566634", "title": "Na wyspie Puckiej:)", "url": "https://dana3ma.flog.pl/wpis/13566634/na-wyspie-puckiej", "w": 1200, "h": 900}, {"file": "041_13589604.jpg", "id": "13589604", "title": "Braterstwo żywiołów:)", "url": "https://dana3ma.flog.pl/wpis/13589604/braterstwo-zywiolow", "w": 1024, "h": 553}, {"file": "042_13619992.jpg", "id": "13619992", "title": "Kos(samica)", "url": "https://dana3ma.flog.pl/wpis/13619992/kossamica", "w": 1024, "h": 1157}, {"file": "043_13792360.jpg", "id": "13792360", "title": "Sikorka modra:)", "url": "https://dana3ma.flog.pl/wpis/13792360/sikorka-modra", "w": 1200, "h": 776}, {"file": "044_14124221.jpg", "id": "14124221", "title": "Kopciuszek:)", "url": "https://dana3ma.flog.pl/wpis/14124221/kopciuszek", "w": 1200, "h": 800}, {"file": "045_14204413.jpg", "id": "14204413", "title": "Bażant:))", "url": "https://dana3ma.flog.pl/wpis/14204413/bazant", "w": 1200, "h": 900}, {"file": "046_14227344.jpg", "id": "14227344", "title": "Chwila wytchnienia:)", "url": "https://dana3ma.flog.pl/wpis/14227344/chwila-wytchnienia", "w": 1018, "h": 1200}, {"file": "047_14234961.jpg", "id": "14234961", "title": "W locie...", "url": "https://dana3ma.flog.pl/wpis/14234961/w-locie", "w": 1200, "h": 800}, {"file": "048_14335399.jpg", "id": "14335399", "title": "Przystojniak:)", "url": "https://dana3ma.flog.pl/wpis/14335399/przystojniak", "w": 1200, "h": 901}, {"file": "049_14345588.jpg", "id": "14345588", "title": "Samotny...", "url": "https://dana3ma.flog.pl/wpis/14345588/samotny", "w": 1200, "h": 900}, {"file": "050_14362909.jpg", "id": "14362909", "title": "Wiosenne porządki:)", "url": "https://dana3ma.flog.pl/wpis/14362909/wiosenne-porzadki", "w": 1200, "h": 801}];
+</script>
+<script src="../js/show.js"></script>
+</body></html>
