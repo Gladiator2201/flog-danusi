@@ -77,11 +77,16 @@
 <audio id="voice" preload="auto" src="audio/voice.mp3"></audio>
 <audio id="music" preload="auto" src="audio/music.mp3" loop></audio>
 <script>
-const v=document.getElementById('voice'), m=document.getElementById('music');
-document.getElementById('playHub').onclick=async()=>{
-  try{ m.volume=.28; await m.play(); }catch(e){}
-  try{ v.currentTime=0; v.volume=1; await v.play(); }catch(e){ alert('Kliknij ponownie, jeśli przeglądarka zablokowała dźwięk.'); }
-};
-v.addEventListener('ended',()=>{ /* keep music soft */ });
+(function(){
+  var v=document.getElementById('voice'), m=document.getElementById('music');
+  var btn=document.getElementById('playHub');
+  function playHub(){
+    try{ if(m){ m.volume=.28; var p=m.play(); if(p&&p.catch)p.catch(function(){}); } }catch(e){}
+    try{
+      if(v){ v.currentTime=0; v.volume=1; var q=v.play(); if(q&&q.catch)q.catch(function(){}); }
+    }catch(e){}
+  }
+  if(btn){ btn.onclick=playHub; btn.ontouchend=function(e){ if(e&&e.cancelable)e.preventDefault(); playHub(); }; }
+})();
 </script>
 </body></html>

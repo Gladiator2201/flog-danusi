@@ -70,6 +70,7 @@ h1{text-align:center;font-family:Georgia,"Palatino Linotype",serif;font-size:cla
 .filmstrip img.on{border-color:var(--gold);opacity:1}
 #gate{position:fixed;inset:0;background:radial-gradient(ellipse at center,#3a1840 0%,#120a18 70%);
   display:flex;align-items:center;justify-content:center;z-index:50;padding:20px}
+#gate[hidden],#gate.is-off{display:none!important;visibility:hidden;pointer-events:none}
 #gate .card{max-width:420px;text-align:center;border:3px solid var(--gold2);padding:28px 22px;
   background:rgba(20,10,28,.9);box-shadow:0 0 0 8px rgba(247,224,138,.12)}
 #gate h2{color:var(--gold);margin:0 0 8px;font-size:28px}
